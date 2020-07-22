@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem "view_component"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
@@ -56,3 +57,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'shopify-cloud', source: 'https://packages.shopify.io/shopify/gems'
 gem 'monorail', source: 'https://packages.shopify.io/shopify/gems'
 gem 'kafka-shopify', source: 'https://packages.shopify.io/shopify/gems'
+gem "motion", "~> 0.4.0"
